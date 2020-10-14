@@ -1,0 +1,23 @@
+{
+    "name": "joaopaulo/digitalcep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jpbatista",
+            "email": "joao.batista@a.ficr.edu.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4":{
+            "joaopaulo\\digitalcep\\": "src/"
+        }
+    }
+}
